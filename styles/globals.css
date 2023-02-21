@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: gray;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #181414c8;
+  border-radius: 100vh;
+  border: 3px solid #f6f7ed;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #c0a0b9;
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.modal {
+  width: clamp(30%, 400px, 80%);
+  height: min(50%, 300px);
+
+  margin: auto;
+  padding: 0 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orange-gradient {
+  background: var(linear-gradient(10deg, #ffaa00, #ff6a00));
+}
+
+@layer components {
+  .infoText {
+    @apply p-4 bg-slate-700/50 rounded-lg max-w-[300px] dark:text-black dark:bg-slate-100;
+  }
+  .ChatRow {
+    @apply rounded-lg px-5 py-3 text-xs flex items-center justify-center space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-in;
+  }
+}
