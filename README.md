@@ -1,5 +1,14 @@
-# Next.js + Tailwind CSS Example
 
+
+![chatgpt2](https://user-images.githubusercontent.com/109628645/222533894-1aa585c4-ee99-447a-99d1-7321130b21f5.PNG)
+
+![chatgpt4](https://user-images.githubusercontent.com/109628645/222533992-76777aee-c0cd-49a4-882a-841c1b4fd77c.PNG)
+
+![chatgpt5](https://user-images.githubusercontent.com/109628645/222534088-281e0eee-70b6-41c5-86a3-2fecce0fb063.PNG)
+![chatgpt1](https://user-images.githubusercontent.com/109628645/222534138-c9abe45d-8eb8-47ed-847b-585063737e81.PNG)
+
+
+# Next.js + Tailwind CSS Example
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
 ## Deploy your own
