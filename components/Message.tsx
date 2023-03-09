@@ -6,8 +6,6 @@ type Props = {
 
 const Message = ({ message }: Props) => {
   const isChatGPT = message.user.name === 'ChatGPT';
-  const type = isChatGPT && message.text;
-  console.log('ty', type);
     return (
       <div className={`p-5 text-white dark:bg-white dark:text-black ${isChatGPT && "bg-[#434654] dark:border dark:bg-gray-100"}`}>
       <div className='flex space-x-5 px-10 max-w-2xl mx-auto'>
