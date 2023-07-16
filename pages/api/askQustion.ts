@@ -27,7 +27,7 @@ export default async function handler(
     // ChatGpt query
 
     const response = await query(prompt, chatId, model || 'text-davinci-003');
-    // console.log('res', response);
+    console.log('res', response);
     const message: Message = {
         text: response || "ChatGPT was unable to find an answer for that",
         createdAt: admin.firestore.Timestamp.now(),
